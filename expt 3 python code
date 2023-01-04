@@ -1,0 +1,94 @@
+EXPT:3
+GROUP:4
+                     QUESTIONS ON DECISION MAKING STATEMENTS
+1.BIGGEST OF THREE NUMBERS
+CODE:
+            a=int(input("enter the first number:"))
+            b=int(input("enter the second number:"))
+            c=int(input("enter the third number:"))
+            if(a>b and a>c):
+                  print("first number is biggest")
+            elif(b>a and b>c):
+                   print("second number is biggest")
+            else:
+                    print("third number is biggest")
+    
+  OUTPUT:
+                    enter the first number:1
+                    enter the second number:2
+                    enter the third number:3
+                    third number is biggest 
+2.ODD OR EVEN NUMBER
+CODE:
+            a=int(input("enter the number"))
+            if(a%2==0):
+                 print("the number is even number")
+            else:
+                   print("the number is odd number")
+    
+                        
+OUTPUT:
+                         enter the number3
+                         the number is odd number
+3.GRADE ANALYSIS
+CODE:
+            m1=int(input("enter the value of m1"))
+            m2=int(input("enter the value of m2"))
+            m3=int(input("enter the value of m3"))
+            total=m1+m2+m3
+            avg=total/3
+            if(avg>90):
+               print("grade is o")
+            elif(avg>90 and avg>=80):
+                print("grade is a+")
+            elif(avg>80 and avg>=70):
+                print("grade is a")
+            elif(avg>70 and avg>=60):
+                 print("grade is b+")
+            elif(avg>60 and avg>=50):
+                print("grade is b")
+            else:
+                 print("grade is u")
+OUTPUT:
+        enter the value of m1 90
+        enter the value of m292
+        enter the value of m394
+        grade is o
+GROUP:5
+1.VOTING ELIGIBILITY
+CODE:
+           a=int(input("enter the age"))
+           if(a>=18):
+               print("eligible for voting")
+           else:
+               print("not eligible for voting")
+OUTPUT:
+                  enter the age 18
+                  eligible for voting
+
+2.UPPER AND LOWER CASE:
+CODE:
+            ch=input("enter the character")
+            if(ch>="a"and ch<="z"):
+               print("you enter the lower case")
+           elif(ch>="A" and ch<="Z"):
+                print("you enter the upper case")
+OUTPUT:
+                  enter the characterA
+                  you enter the upper case  
+3.QUADRATIC EQUATION
+CODE: 
+             import cmath
+             a=float(input("enter a:"))
+             b=float(input("enter b:"))
+             c=float(input("enter c:"))
+          d=(b**2)-(4*a*c)
+          sol1=(-b-cmath.sqrt(d))/(2*a)
+          sol2=(-b+cmath.sqrt(d))/(2*a)
+          print("the solution are{0}and{1}".format(sol1,sol2))
+OUTPUT:
+                  enter a:8
+                  enter b:5
+                  enter c:9
+                  the solution are(-0.3125-1.013579671264178j)and(-0.3125+1.0135796712641785j)
+
